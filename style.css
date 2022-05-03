@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'VCR';
+    src: url('Fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('Fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  overflow: hidden;
+}
+
+#img1 {
+  background-image: url("Pictures/Bar7.gif")
+}
+
+#img2 {
+  background-image: url("Pictures/Archie.gif")
+}
+
+#img3 {
+  background-image: url("Pictures/Ghost.png");
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-name: bounce;
+  animation-duration: 1s;
+}
+
+#img4 {
+  background-image: url("Pictures/Counter.png")
+}
+
+#img5 {
+  background-image: url("Pictures/CalicoJack.png");
+}
+
+#img6 {
+  background-image: url("Pictures/Shot.png");
+}
+
+#img7 {
+  background-image: url("Pictures/Shot.png");
+}
+
+#img8 {
+  background-image: url("Pictures/Tea2.png");
+}
+
+#img9 {
+  background-image: url("Pictures/Mojito.png");
+}
+
+#img10 {
+  background-image: url("Pictures/CalicoJack.png");
+}
+
+.hide {
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-name: conceal;
+  animation-duration: .25s;
+}
+
+.drink {
+  display: none;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-name: slide;
+  animation-duration: 3s;
+}
+
+.calico {
+  position: absolute;
+  bottom: 0px;
+  width: 40px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("Pictures/CalicoBottle.png");
+}
+
+.svedka {
+  position: absolute;
+  bottom: 0px;
+  left: 55px;
+  width: 45px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("Pictures/SvedkaBottle.png");
+}
+
+.smirnoff {
+  position: absolute;
+  bottom: 0px;
+  left: 105px;
+  width: 45px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("Pictures/SmirnoffBottle.png");
+}
+
+.boston {
+  position: absolute;
+  bottom: 0px;
+  left: 155px;
+  width: 50px;
+  height: 85px;
+  background-size: cover;
+  background-image: url("Pictures/BostonBottle.png");
+}
+
+.bacardi {
+  position: absolute;
+  bottom: 0px;
+  left: 210px;
+  width: 45px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("Pictures/BacardiBottle.png");
+}
+
+.kraken {
+  position: absolute;
+  bottom: 0px;
+  left: 260px;
+  width: 55px;
+  height: 90px;
+  background-size: cover;
+  background-image: url("Pictures/KrakenBottle.png");
+}
+
+@keyframes bounce {
+  0% {top: -200px;}
+  100% {top: -175px;}
+}
+
+@keyframes slide {
+  0% {top: -125px;}
+  20% {top: -200px;}
+  20% {left: -15px;}
+  100% {left: 875px;}
+}
+
+@keyframes conceal {
+  0% {top: -200px;}
+  100% {top: -125px;}
+}
+
+.image {
+  position: absolute;
+  top: -200px;
+  left: -15px;
+  background-size: contain;
+  width: 110%;
+  height: 130%;
+  background-repeat: no-repeat;
+  position: absolute;
+  max-width:
+}
+
+.text {
+  position: relative;
+  top: 600px;
+  left: 620px;
+  width: 500px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "VCR";
+  color: white;
+  font-size: 18pt;
+}

@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'VCR';
-    src: url('Fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
-         url('Fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'VCR';
+  src: url('Fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+    url('Fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -56,6 +55,58 @@ body {
   background-image: url("Pictures/CalicoJack.png");
 }
 
+#img11 {
+  background-image: url("Pictures/RedWine.png");
+}
+
+#img12 {
+  background-image: url("Pictures/RedWine.png");
+}
+
+#img13 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img14 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img15 {
+  background-image: url("Pictures/Mead.png");
+}
+
+#img16 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img17 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img18 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img19 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img20 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img21 {
+  background-image: url("Pictures/Rose.png");
+}
+
+#img22 {
+  background-image: url("Pictures/WhiteWine.png");
+}
+
+#img23 {
+  background-image: url("Pictures/Champagne.png");
+}
+
 .hide {
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
@@ -75,8 +126,9 @@ body {
 .calico {
   position: absolute;
   bottom: 0px;
-  width: 40px;
-  height: 100px;
+  left: 5px;
+  width: 60px;
+  height: 145px;
   background-size: cover;
   background-image: url("Pictures/CalicoBottle.png");
 }
@@ -84,9 +136,9 @@ body {
 .svedka {
   position: absolute;
   bottom: 0px;
-  left: 55px;
-  width: 45px;
-  height: 100px;
+  left: 70px;
+  width: 65px;
+  height: 145px;
   background-size: cover;
   background-image: url("Pictures/SvedkaBottle.png");
 }
@@ -94,9 +146,9 @@ body {
 .smirnoff {
   position: absolute;
   bottom: 0px;
-  left: 105px;
-  width: 45px;
-  height: 100px;
+  left: 140px;
+  width: 65px;
+  height: 145px;
   background-size: cover;
   background-image: url("Pictures/SmirnoffBottle.png");
 }
@@ -104,9 +156,9 @@ body {
 .boston {
   position: absolute;
   bottom: 0px;
-  left: 155px;
-  width: 50px;
-  height: 85px;
+  left: 210px;
+  width: 70px;
+  height: 120px;
   background-size: cover;
   background-image: url("Pictures/BostonBottle.png");
 }
@@ -114,9 +166,9 @@ body {
 .bacardi {
   position: absolute;
   bottom: 0px;
-  left: 210px;
-  width: 45px;
-  height: 100px;
+  left: 285px;
+  width: 65px;
+  height: 145px;
   background-size: cover;
   background-image: url("Pictures/BacardiBottle.png");
 }
@@ -124,28 +176,179 @@ body {
 .kraken {
   position: absolute;
   bottom: 0px;
-  left: 260px;
-  width: 55px;
-  height: 90px;
+  left: 355px;
+  width: 75px;
+  height: 125px;
   background-size: cover;
   background-image: url("Pictures/KrakenBottle.png");
 }
 
+.trois {
+  position: absolute;
+  bottom: 0px;
+  left: 435px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/TroisBottle.png");
+}
+
+.owl {
+  position: absolute;
+  bottom: 0px;
+  left: 485px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/OwlBottle.png");
+}
+
+.owlwhite {
+  position: absolute;
+  bottom: 0px;
+  left: 535px;
+  width: 45px;
+  height: 120px;
+  background-size: cover;
+  background-image: url("Pictures/OwlWhiteBottle.png");
+}
+
+.barefoot {
+  position: absolute;
+  bottom: 0px;
+  left: 585px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/BarefootBottle.png");
+}
+
+.dale {
+  position: absolute;
+  bottom: 0px;
+  left: 635px;
+  width: 70px;
+  height: 105px;
+  background-size: cover;
+  background-image: url("Pictures/DaleBottle.png");
+}
+
+.artiechardonnay {
+  position: absolute;
+  bottom: 0px;
+  left: 710px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/ArtieChardonnayBottle.png");
+}
+
+.artiepinot {
+  position: absolute;
+  bottom: 0px;
+  left: 760px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/ArtiePinotBottle.png");
+}
+
+.artieblanc {
+  position: absolute;
+  bottom: 0px;
+  left: 810px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/ArtieBlancBottle.png");
+}
+
+.chateau {
+  position: absolute;
+  bottom: 0px;
+  left: 860px;
+  width: 45px;
+  height: 120px;
+  background-size: cover;
+  background-image: url("Pictures/ChateauBottle.png");
+}
+
+.crawford {
+  position: absolute;
+  bottom: 0px;
+  left: 910px;
+  width: 45px;
+  height: 120px;
+  background-size: cover;
+  background-image: url("Pictures/CrawfordBottle.png");
+}
+
+.billings {
+  position: absolute;
+  bottom: 0px;
+  left: 960px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/BillingsBottle.png");
+}
+
+.camelot {
+  position: absolute;
+  bottom: 0px;
+  left: 1010px;
+  width: 45px;
+  height: 125px;
+  background-size: cover;
+  background-image: url("Pictures/CamelotBottle.png");
+}
+
+.andre {
+  position: absolute;
+  bottom: 0px;
+  left: 1060px;
+  width: 45px;
+  height: 120px;
+  background-size: cover;
+  background-image: url("Pictures/AndreBottle.png");
+}
+
 @keyframes bounce {
-  0% {top: -200px;}
-  100% {top: -175px;}
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: -175px;
+  }
 }
 
 @keyframes slide {
-  0% {top: -125px;}
-  20% {top: -200px;}
-  20% {left: -15px;}
-  100% {left: 875px;}
+  0% {
+    top: -125px;
+  }
+
+  20% {
+    top: -200px;
+  }
+
+  20% {
+    left: -15px;
+  }
+
+  100% {
+    left: 875px;
+  }
 }
 
 @keyframes conceal {
-  0% {top: -200px;}
-  100% {top: -125px;}
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: -125px;
+  }
 }
 
 .image {
